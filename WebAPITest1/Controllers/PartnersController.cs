@@ -51,7 +51,7 @@ namespace WebAPITest1.Controllers
 
             new CsvService().WritePartners(Partners, GetFilePath());
 
-            return Ok();
+            return Ok("success");
         }
 
     }
